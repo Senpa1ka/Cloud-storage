@@ -1,0 +1,63 @@
+# Общие настройки
+ *.class
+ *.log
+ *.jar
+ *.war
+ *.ear
+
+ # Папки
+ /bin/
+ /build/
+ /target/
+
+ # Настройки IDE
+ /.idea/
+ /*.iml
+ *.ipr
+ *.iws
+
+ # Mac OS
+ .DS_Store
+
+ # Windows
+ Thumbs.db
+ ehthumbs.db
+
+ # Linux
+ *~
+
+ # Логи и временные файлы
+ *.log
+ *.tmp
+ *.swp
+
+ # Maven
+ .mvn/
+ !**/src/main/**/target/
+ !**/src/test/**/target/
+
+ # Gradle
+ .gradle/
+ /build/
+
+ # Eclipse
+ .project
+ .classpath
+ .cproject
+ .settings/
+
+ # NetBeans
+ /nbproject/private/
+ /nbbuild/
+ /dist/
+ /nbdist/
+ /.nb-gradle/
+
+ # IntelliJ IDEA
+ /out/
+
+ # VS Code
+ .vscode/
+# Project exclude paths
+/client/target/
+/server/target/
